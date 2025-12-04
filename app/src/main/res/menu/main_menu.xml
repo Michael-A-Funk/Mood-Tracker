@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_main"
+        app:showAsAction="never"
+        android:title="@string/button_main">
+    </item>
+    <item
+        android:id="@+id/action_take_medication"
+        app:showAsAction="never"
+        android:title="@string/button_take_medication">
+    </item>
+    <item
+        android:id="@+id/action_take_drinks"
+        app:showAsAction="never"
+        android:title="@string/button_take_drinks">
+    </item>
+    <item
+        android:id="@+id/action_insert_medication"
+        app:showAsAction="never"
+        android:title="@string/button_insert_medication">
+    </item>
+    <item
+        android:id="@+id/action_mood_main"
+        app:showAsAction="never"
+        android:title="@string/button_mood_main">
+    </item>
+    <item
+        android:id="@+id/action_positive_main"
+        app:showAsAction="never"
+        android:title="@string/button_positive_main">
+    </item>
+    <item
+        android:id="@+id/action_pdf_main"
+        app:showAsAction="never"
+        android:title="@string/button_pdf_main">
+    </item>
+</menu>

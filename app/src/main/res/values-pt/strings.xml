@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- App Name-->
+    <string name="app_name">Diário de Humor</string>
+
+
+    <!--Layout von MainActivity -->
+    <string name="button_main">Página Principal</string>
+    <string name="button_take_medication">Tomar Medicação</string>
+    <string name="button_take_drinks">Beber Líquidos</string>
+    <string name="button_insert_medication">Inserir Medicação</string>
+    <string name="button_mood_main">Registar Humor</string>
+    <string name="button_positive_main">Registar Ocorrências Positivas</string>
+    <string name="button_pdf_main">Imprimir Pdf</string>
+
+
+    <!-- Geteillte Strings vom Layout von dialog_edit_therapy_memo & dialog_edit_drinks_memo -->
+    <string name="dialog_button_positive">Alterar</string>
+    <string name="dialog_button_negative">Cancelar</string>
+    <string name="cab_delete">Eliminar Entradas</string>
+    <string name="cab_change">Alterar Entradas</string>
+    <string name="cab_checked_string">Escolhido</string>
+
+    <string name="dialog_title">Change list entry</string>
+
+    <!--Layout von therapy -->
+
+    <string name="editText_hint_dosis">Dose</string>
+    <string name="editText_hint_medication">Medicação</string>
+    <string name="editText_hint_time">Hora em HH:MM</string>
+    <string name="button_add_medication">+</string>
+
+    <!--Layout von taken medication -->
+    <string name="button_medication_all_taken">Medicação toda tomada</string>
+
+    <!-- Layout von dialog_edit_therapy_memo -->
+
+    <string name="dialog_title_dosis">Dose:</string>
+    <string name="dialog_title_medication">Medicação:</string>
+    <string name="dialog_title_plan_time">Hora:</string>
+
+
+    <string name="editText_errorMessage">Campo tem de ser preenchido.</string>
+
+    <!--Layout von take_drinks -->
+
+    <string name="editText_hint_quantity">ml</string>
+    <string name="editText_hint_drinks">Liquidos</string>
+    <string name="button_add_drinks">+</string>
+
+    <!-- Butoon Finished -->
+    <string name="button_finished">Concluído</string>
+
+
+    <!-- Layout von mood -->
+    <string name="spinner_mood">Humor</string>
+    <string name="spinner_fear">Medo</string>
+    <string name="spinner_irritability">Irritabilidade</string>
+    <string name="spinner_stress">Stress</string>
+    <string name="spinner_sleep_quality">Qualidade do Sono</string>
+    <string name="editText_sleep_time">Duração do sono</string>
+    <string name="checkBox_sleep_interruptions">Interrupções do Sono</string>
+    <string name="sleep_interruptions1">Interrupções</string>
+    <string name="sleep_interruptions2"> do Sono</string>
+    <string name="checkBox_delusions">Delírios</string>
+    <string name="checkBox_alcohol">Álcool</string>
+    <string name="checkBox_drugs">Drogas</string>
+    <string name="editText_important_occurrences">Ocorrências Positivas</string>
+
+    <!-- Layout von positive -->
+    <string name="checkBox_sport">Desporto</string>
+    <string name="spinner_diet">Dieta</string>
+    <string name="checkBox_mindfullness">Mindfullness</string>
+    <string name="checkBox_journaling">Diário</string>
+
+    <!-- Layout von print_pdf -->
+    <string name="checkBox_emotions">Emoções</string>
+    <string name="checkBox_sleep_drugs">Sono e Drogas</string>
+    <string name="checkBox_memo">Memorando do Diário</string>
+    <string name="checkBox_positive_occurrences">Ocorrências Positivas</string>
+    <string name="checkBox_medication">Medicação</string>
+    <string name="checkBox_drinks">Líquidos</string>
+    <string name="spinner_emotions">Emoções</string>
+    <string name="spinner_time_intervall">Semanas</string>
+
+    <!-- Layout von dialog_edit_drinks_memo -->
+
+    <string name="dialog_title_quantity">Quantidade:</string>
+    <string name="dialog_title_drinks">Líquidos:</string>
+    <string name="dialog_title_time">Tempo:</string>
+
+    <!-- Optionen von Graphic-->
+    <string name="graphic_yes"> Sim</string>
+    <string name="graphic_no">Não</string>
+    <string name="graphic_bad">Mau</string>
+    <string name="graphic_good">Bom</string>
+    <string name="graphic_none">Nehum</string>
+    <string name="graphic_little">Pouco</string>
+    <string name="graphic_middle">Médio</string>
+    <string name="graphic_very">Muito</string>
+    <string name="graphic_moderate">Moderado</string>
+    <string name="graphic_great">Gramde</string>
+    <string name="graphic_worst">Pior</string>
+    <string name="graphic_uncomfortable">Desconfortável</string>
+    <string name="graphic_normal">Normal</string>
+    <string name="graphic_well">Bem</string>
+    <string name="graphic_top">Topo</string>
+    <string name="graphic_compare"> - Comparar></string>
+
+
+    <!-- Graphic tables headlines-->
+    <string name="month_label">Mes</string>
+    <string name="day_label">Dia</string>
+    <string name="emoLabel">Emoções</string>
+    <string name="sleepConsumLabel">Sono/comsumo</string>
+    <string name="posLabel">Ocações positivos</string>
+    <string name="memLabel">Memória</string>
+    <string name="medLabel">Medicação</string>
+    <string name="drinkLabel">Liquidos</string>
+    <string name="comparingLabel">(comparação)</string>
+
+
+
+    <!-- Month names -->
+    <string name="month_jan">Jan</string>
+    <string name="month_feb">Fev</string>
+    <string name="month_mar">Mar</string>
+    <string name="month_abr">Abr</string>
+    <string name="month_may">Maio</string>
+    <string name="month_jun">Jun</string>
+    <string name="month_jul">Jul</string>
+    <string name="month_aug">Aug</string>
+    <string name="month_sep">Set</string>
+    <string name="month_oct">Out</string>
+    <string name="month_nov">Nov</string>
+    <string name="month_dec">Dez</string>
+
+
+
+    <string name="medication_notification_title_template">Medicação: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+
+</resources>

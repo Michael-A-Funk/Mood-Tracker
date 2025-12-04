@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxEmotions"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "3"
+            android:checked = "true"
+            android:text="@string/checkBox_emotions"
+            android:layout_marginRight="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxSleepDrugs"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "3"
+            android:checked = "true"
+            android:text="@string/checkBox_sleep_drugs"
+            android:layout_marginRight="20dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:layout_marginBottom="20dp">
+
+    <CheckBox
+        android:id="@+id/checkMemo"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_weight = "3"
+        android:checked = "true"
+        android:text="@string/checkBox_memo"
+        android:layout_marginRight="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPositiveOccurences"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "3"
+            android:checked = "true"
+            android:text="@string/checkBox_positive_occurrences"
+            android:layout_marginRight="20dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:layout_marginBottom="20dp">
+
+    <CheckBox
+        android:id="@+id/checkBoxMedication"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_weight = "3"
+        android:checked = "true"
+        android:text="@string/checkBox_medication"
+        android:layout_marginRight="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxDrinks"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "3"
+            android:checked = "true"
+            android:text="@string/checkBox_drinks"
+            android:layout_marginRight="20dp"/>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/dateStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Select Start Date"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp">
+
+
+        <Spinner
+            android:id="@+id/spinnerMoodVariables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="5"
+            android:background="@android:drawable/btn_dropdown"
+            android:hint="Mood Variables"
+            android:spinnerMode="dialog" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp">
+
+
+        <Spinner
+            android:id="@+id/spinnerTimeIntervall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="5"
+            android:background="@android:drawable/btn_dropdown"
+            android:hint="Mood Variables"
+            android:spinnerMode="dialog" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finished" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.psychology.mooddiary">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TakeDrinks" />
+        <activity android:name=".TakeMedication" />
+        <activity android:name=".Therapy" />
+        <activity android:name=".Mood" />
+        <activity android:name=".Positive" />
+        <activity android:name=".PrintPdf" />
+        <!-- Hier legen wir den Haupt-Einstiegspunkt unserer Anwendung fest: die erste Activity -->
+        <activity android:name=".MainActivity"
+            android:exported="true"> <!-- Name der ersten Activy wir hier festgellegt -->
+
+
+            <!--
+            Intent-Filter: Mit Intent Elementen wird vorgegeben auf welche Arten von Intents die
+            Activity   Antworten kann
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" /> <!-- Icon der App -->
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".BroadcastReceiverMedication" />
+        <receiver android:name=".BroadcastReceiverMood" />
+        <!-- Legend der Erste Activity endet hier -->
+    </application>
+
+</manifest>

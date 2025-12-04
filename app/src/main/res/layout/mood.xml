@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp">
+
+            <Spinner
+            android:id="@+id/spinnerMood"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:prompt= "@string/spinner_mood"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dialog"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp">
+
+        <Spinner
+            android:id="@+id/spinnerFear"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "3"
+            android:hint = "Fear"
+            android:prompt= "@string/spinner_fear"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dialog"
+            android:layout_marginRight="20dp"/>
+        <Spinner
+            android:id="@+id/spinnerIrritability"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "4"
+            android:hint = "Irritability"
+            android:prompt= "@string/spinner_irritability"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dialog"
+            android:layout_marginRight="20dp"/>
+
+
+        <Spinner
+            android:id="@+id/spinnerStress"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "3"
+            android:hint = "Stress"
+            android:prompt= "@string/spinner_stress"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dialog"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText_sleep_time"
+            android:inputType="number"
+            android:id="@+id/editTextSleepTime"
+            android:layout_weight="4" />
+
+        <Spinner
+            android:id="@+id/spinnerSleepQuality"
+            android:hint="Sleep Quality"
+            android:prompt= "@string/spinner_sleep_quality"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="3"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dialog" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSleepInterruptions"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="3"
+            android:text="@string/checkBox_sleep_interruptions"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxDelusion"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "3"
+            android:text="@string/checkBox_delusions"
+            android:layout_marginRight="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxAlcohol"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "3"
+            android:text="@string/checkBox_alcohol"
+            android:layout_marginRight="20dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxDrugs"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_weight = "3"
+            android:text="@string/checkBox_drugs"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText_important_occurrences"
+            android:inputType="text"
+            android:id="@+id/editTextMemo"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="20dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="string/button_finished"
+        android:id="@+id/button_add_mood" />
+
+    </LinearLayout>
+
+</LinearLayout>

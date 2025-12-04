@@ -1,0 +1,143 @@
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- App Name-->
+    <string name="app_name">MoodDiary</string>
+
+    <!--Layout von MainActivity -->
+    <string name="button_main">Hauptseite</string>
+    <string name="button_take_medication">Medikamente einnehmen</string>
+    <string name="button_insert_medication">Medikamente verwalten</string>
+    <string name="button_take_drinks">Trinken</string>
+    <string name="button_mood_main">Befinden eintragen</string>
+    <string name="button_positive_main">Angenehme Ereignisse eintragen</string>
+    <string name="button_pdf_main">Pdf drucken</string>
+
+    <!-- Geteillte Strings vom Layout von dialog_edit_therapy_memo & dialog_edit_drinks_memo -->
+    <string name="dialog_button_positive">Ändern</string>
+    <string name="dialog_button_negative">Abbrechen</string>
+    <string name="cab_delete">Einträge löschen</string>
+    <string name="cab_change">Eintrag ändern</string>
+    <string name="cab_checked_string">Ausgewählt</string>
+
+    <string name="dialog_title">Listeneintrag ändern</string>
+
+    <!--Layout von therapy -->
+
+    <string name="editText_hint_dosis">Dosis</string>
+    <string name="editText_hint_medication">Medikament</string>
+    <string name="editText_hint_time">Zeit HH:MM</string>
+    <string name="button_add_medication">+</string>
+
+    <!--Layout von taken medication -->
+    <string name="button_medication_all_taken">Medikamente alle genommen</string>
+
+    <!-- Butoon Finished -->
+    <string name="button_finished">Beenden</string>
+
+    <!-- Layout von mood -->
+    <string name="spinner_mood">Stimmung</string>
+    <string name="spinner_fear">Angst</string>
+    <string name="spinner_irritability">Reizbarkeit</string>
+    <string name="spinner_stress">Stress</string>
+    <string name="spinner_sleep_quality">Schlaf-Qualität</string>
+    <string name="editText_sleep_time">Schlafstunden</string>
+    <string name="checkBox_sleep_interruptions">Schlafunterbrechungen</string>
+    <string name="sleep_interruptions1">Schlaf-</string>
+    <string name="sleep_interruptions2">unterbrechung</string>
+    <string name="checkBox_delusions">Wahn</string>
+    <string name="checkBox_alcohol">Alkohol</string>
+    <string name="checkBox_drugs">Drogen</string>
+    <string name="editText_important_occurrences">Wichtige Ereignisse</string>
+
+    <!-- Layout von positive -->
+    <string name="checkBox_sport">Sport</string>
+    <string name="spinner_diet">Diät</string>
+    <string name="checkBox_mindfullness">Mindfullness</string>
+    <string name="checkBox_journaling">Tagebuch</string>
+
+    <!-- Layout von print_pdf -->
+    <string name="checkBox_emotions">Empfinden</string>
+    <string name="checkBox_sleep_drugs">Schlaf und Drogen</string>
+    <string name="checkBox_memo">Memo Tagebuch</string>
+    <string name="checkBox_positive_occurrences">Positive Ereignisse</string>
+    <string name="checkBox_medication">Medikamente</string>
+    <string name="checkBox_drinks">Getränke</string>
+    <string name="spinner_emotions">Empfindungen</string>
+    <string name="spinner_time_intervall">Wochen</string>
+
+    <!-- Layout von dialog_edit_therapy_memo -->
+
+    <string name="dialog_title_dosis">Dosis:</string>
+    <string name="dialog_title_medication">Medikament:</string>
+    <string name="dialog_title_plan_time">Uhrzeit:</string>
+
+
+    <string name="editText_errorMessage">Das Feld darf nicht leer sein.</string>
+
+    <!--Layout von take_drinks -->
+
+    <string name="editText_hint_quantity">Menge</string>
+    <string name="editText_hint_drinks">Getränke</string>
+    <string name="button_add_drinks">+</string>
+
+
+    <!-- Layout von dialog_edit_drinks_memo -->
+
+    <string name="dialog_title_quantity">Menge:</string>
+    <string name="dialog_title_drinks">Getränke:</string>
+    <string name="dialog_title_time">Zeit:</string>
+
+    <!-- Optionen von Graphic-->
+    <string name="graphic_yes"> Ja</string>
+    <string name="graphic_no">Nein</string>
+    <string name="graphic_bad">Schlecht</string>
+    <string name="graphic_good">Gut</string>
+    <string name="graphic_none">Kein(e)</string>
+    <string name="graphic_little">Wening</string>
+    <string name="graphic_middle">Mittel</string>
+    <string name="graphic_very">Sehr</string>
+    <string name="graphic_moderate">Mäßig</string>
+    <string name="graphic_great">Toll</string>
+    <string name="graphic_worst">Übel</string>
+    <string name="graphic_uncomfortable">Unwohl</string>
+    <string name="graphic_normal">Normal</string>
+    <string name="graphic_well">Wohl</string>
+    <string name="graphic_top">Spitze</string>
+    <string name="graphic_compare"> - Vergleich></string>
+
+    <!-- Graphic tables headlines-->
+    <string name="month_label">Monat</string>
+    <string name="day_label">Tag</string>
+    <string name="emoLabel">Gefühle</string>
+    <string name="sleepConsumLabel">Schlaf/Konsum</string>
+    <string name="posLabel">Positive Ereignisse</string>
+    <string name="memLabel">Erinnerung</string>
+    <string name="medLabel">Arzneimittel</string>
+    <string name="drinkLabel">Flüssigkeiten</string>
+    <string name="comparingLabel">(Vergleich)</string>
+
+
+    <!-- Month names -->
+    <string name="month_jan">Jan</string>
+    <string name="month_feb">Feb</string>
+    <string name="month_mar">Mär</string>
+    <string name="month_abr">Apr</string>
+    <string name="month_may">Mai</string>
+    <string name="month_jun">Jun</string>
+    <string name="month_jul">Jul</string>
+    <string name="month_aug">Aug</string>
+    <string name="month_sep">Sep</string>
+    <string name="month_oct">Okt</string>
+    <string name="month_nov">Nov</string>
+    <string name="month_dec">Dez</string>
+
+
+    <string name="medication_notification_title_template">Medikamente: %1$s</string>
+
+
+
+
+</resources>
