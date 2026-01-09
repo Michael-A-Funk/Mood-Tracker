@@ -9,3 +9,8 @@ In this app it was concilied this principle of mood tracking with the registrati
 The app is able to let user insert data about medication, needed water intake and the schedule of therapy session, so it is taken in to account and to be remembered. It not only registeres the mood level, but also levels of fear, irritability, delusion, stress, sleep quality, sleep interruptions, alcohol and drug intake. Further it registeres activities/actions the user can do that normally enhance better mental health: sport, diet, midnfullness, journaling are the ones user can register. All this information is naturally registered with the time and date, and saved into a database.
 
 Extra functionalities from this app include exporting this data to a pdf file, so the user and health professional can have access to this information without having to use solely the app.
+
+
+## Actual Limitations
+
+This app was not actualized to the most recent SDK.
