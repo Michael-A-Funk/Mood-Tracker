@@ -13,4 +13,4 @@ Extra functionalities from this app include exporting this data to a pdf file, s
 
 ## Actual Limitations
 
-This app was not actualized to the most recent SDK.
+This app was not actualized to the most recent SDK, and is respectively outdated, requiring further development to meet the new standards.
